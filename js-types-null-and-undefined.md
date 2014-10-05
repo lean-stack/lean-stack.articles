@@ -14,7 +14,7 @@
 
 * ```undefined``` ist eine vordefinierte globale Variable:
     
-    undefined === window.undefined; // true
+        undefined === window.undefined; // true
 
 * Eine nicht initialisierte Variable hat den Wert ```undefined```
 * Nicht existierende Objekt-Properties oder Array-Elemente sind ```undefined```
