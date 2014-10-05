@@ -13,4 +13,29 @@
 ### ```undefined```
 
 * ```undefined``` ist eine vordefinierte globale Variable:
+    
     undefined === window.undefined; // true
+
+* Eine nicht initialisierte Variable hat den Wert ```undefined```
+* Nicht existierende Objekt-Properties oder Array-Elemente sind ```undefined```
+* Funktionen ohne Rückgabe-Wert liefern ```undefined```
+* Funktions-Parameter ohne Argument sind ```undefined```
+* ```typeof(undefined)``` liefert "undefined".
+
+### Gleichheit der beiden Werte
+
+Es gilt:
+
+    null == undefined; // true
+    null === undefined; // false
+
+### Resümee
+
+Bei der Verwendung sollte ```null``` für einen erwarteten Wert stehen,
+```undefined``` eher für einen Fehler.
+
+### Links
+
+* [Web Tools Weekly #62](http://webtoolsweekly.com/)
+* [MDN zu ```null```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null)
+* [MDN zu ```undefined```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
